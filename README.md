@@ -39,7 +39,6 @@ You can replace the base model with transfer learning (e.g., ResNet, VGG) for be
 ---
 
 ## 🚀 How to Run
-1. **Install requirements**
 
 ```bash
 
