@@ -1,9 +1,8 @@
 
 
-# 🐾 Animal Image Classification using Deep Learning
+# 🐾 Animal Image Classification using MobileNet (TensorFlow)
 
-This project focuses on classifying images of animals into their respective categories using deep learning. It uses a Convolutional Neural Network (CNN) model trained on a dataset of 15 animal classes to demonstrate image classification capabilities.
-
+This project classifies animal images into 15 categories using **transfer learning** with **MobileNet** and **TensorFlow**. It demonstrates how to leverage pre-trained models for accurate and efficient image classification.
 
 ## 📊 Dataset
 
@@ -27,16 +26,44 @@ Images are preprocessed (resized, normalized) and augmented during training to i
 
 ## 🧠 Model Architecture
 
-The model is built using:
-
-- ✅ Convolutional layers with ReLU
-- ✅ MaxPooling layers
-- ✅ Dense layers with Dropout
-- ✅ Softmax activation for multiclass output
-
-You can replace the base model with transfer learning (e.g., ResNet, VGG) for better accuracy.
+- ✅ **Transfer Learning** using `MobileNetV2` (pre-trained on ImageNet)
+- ✅ TensorFlow / Keras API for easy integration
+- ✅ Global Average Pooling + Dense layer for classification
+- ✅ Softmax activation for multi-class output (15 classes)
+- ✅ Data augmentation with `ImageDataGenerator`
 
 ---
+🧪 Results
+✅ Fast training with transfer learning
+
+✅ Lightweight model, suitable for mobile/edge deployment
+
+🔍 Confusion matrix, accuracy graph, and sample predictions included in results/
+
+🎯 Test Accuracy: ~ZZ% (update after training)
+
+🔧 Tech Stack
+🧠 TensorFlow / Keras
+
+📊 NumPy, Matplotlib
+
+🗂️ ImageDataGenerator for loading + augmentation
+
+💾 MobileNetV2 from TensorFlow Hub or Keras Applications
+
+📈 Future Improvements
+ Fine-tune top MobileNet layers for better accuracy
+
+ Convert model to TFLite for mobile deployment
+
+ Build a simple web UI with Flask or Streamlit
+
+ Add support for batch inference
+
+🙋‍♀️ About Me
+I’m Devika, an aspiring AI/ML Engineer passionate about real-world applications of deep learning. This project is part of my journey into transfer learning and computer vision.
+
+
 
 ## 🚀 How to Run
 
