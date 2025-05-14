@@ -39,9 +39,11 @@ You can replace the base model with transfer learning (e.g., ResNet, VGG) for be
 ---
 
 ## 🚀 How to Run
-
 1. **Install requirements**
 
 ```bash
+
 pip install -r requirements.txt
+python train.py
+python test.py --image path_to_image.jpg
 
