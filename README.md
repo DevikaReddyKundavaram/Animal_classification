@@ -78,4 +78,6 @@ Used the [Animal Image Dataset (90 Different Animals)](https://www.kaggle.com/da
 pip install -r requirements.txt
 python train.py
 python test.py --image path_to_image.jpg
+```
+📌 This project was developed as part of my internship at **Unified Mentor** under the guidance of industry experts.
 
