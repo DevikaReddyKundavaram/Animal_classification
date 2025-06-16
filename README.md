@@ -63,6 +63,12 @@ Images are preprocessed (resized, normalized) and augmented during training to i
 🙋‍♀️ About Me
 I’m Devika, an aspiring AI/ML Engineer passionate about real-world applications of deep learning. This project is part of my journey into transfer learning and computer vision.
 
+## 📁 Dataset
+
+Used the [Animal Image Dataset (90 Different Animals)](https://www.kaggle.com/datasets/alessiocorrado99/animals10) from Kaggle for training and evaluation.
+
+> 📌 Note: You’ll need a Kaggle account to access this dataset. Make sure to accept the terms before downloading.
+
 
 
 ## 🚀 How to Run
